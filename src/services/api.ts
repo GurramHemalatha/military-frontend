@@ -1,11 +1,8 @@
 import axios from 'axios';
 
-// const API_BASE_URL = 'http://localhost:8081/api';
-const API_BASE_URL = 'https://military-backend-fagp.onrender.com';
+const API_BASE_URL = 'https://military-backend-fagp.onrender.com/api';
 
-// ==========================================
-// Type Definitions
-// ==========================================
+
 
 export interface Base {
   id?: number;
